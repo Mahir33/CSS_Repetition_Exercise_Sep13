@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.wrapper {
+    min-width: 30%;
+    
+}
+
+nav {
+    text-align: right;
+    margin: 2vh 0;
+}
+
+nav a {
+    display: inline-block;
+    font-size: 0.8rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(104, 102, 102);
+    padding: 10px;
+    margin: 0 20px;
+}
+
+nav a:hover {
+    border-bottom: 2px solid rgb(104, 102, 102);
+}
+
+.btn4 {
+    border-top: 2px solid rgb(104, 102, 102);
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-bottom: 2px solid rgb(104, 102, 102);
+    line-height: 3vh;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-left: 70px;
+    margin-right: 40px;
+}
+
+nav a.btn4:hover {
+    transition: 0.1s;
+    border: 2px solid rgb(104, 102, 102);
+    }
+
+header {
+    min-height: 40vh;
+    background-image: url(../img/monika-majkowska-Nq8LdWC7HnM-unsplash.jpg);
+    background-size: cover;
+}
+
+header h1 {
+    font-size: 4rem;
+    color: rgb(252, 252, 252);
+    text-transform: capitalize;
+    line-height: 40vh;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+main {
+    display: inline-block;
+    text-align: center;   
+    margin: 7vh;
+}
+
+section {
+    height: 30vh;
+    display: inline-block;
+    text-align: center;
+}
+
+.feature {
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 5vh;
+}
+
+main p {
+    box-sizing: border-box;
+    margin-bottom: 10vh;
+    font-size: 0.9rem;
+    padding: 0 8vw;
+}
+
+.image {
+    margin: 0 20px;
+    box-sizing: border-box;
+    padding: 0 40px;
+    width: 170px;
+    height: 90px;
+    background-image: url(https://picsum.photos/170/90?random=1);
+    
+}
+
+h5 {
+    margin-top: 2vh;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    min-height: 10vh;
+    color: white;
+    box-sizing: border-box;
+    line-height: 10vh;
+}
